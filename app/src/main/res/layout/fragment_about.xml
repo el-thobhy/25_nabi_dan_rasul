@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D5D3D3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#18305E"
+            android:orientation="horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image"
+            android:text="Auriwan Yasper"
+            android:textColor="@color/white"
+            android:fontFamily="@font/avant_garde_gothic_lt_bold"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/nama"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:fontFamily="@font/baloo_thambi_regular"
+            android:gravity="center"
+            android:layout_marginTop="7dp"
+            android:text="auriwanyasper@gmail.com"
+            android:textColor="@color/white" />
+
+        <RelativeLayout
+            android:id="@+id/isi_about"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_bg">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/avant_garde_gothic_lt_bold"
+                    android:gravity="center"
+                    android:padding="20dp"
+                    android:text="Follow My Social Media"
+                    android:textColor="#736565" />
+
+                <LinearLayout
+                    android:id="@+id/instagram"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/insta" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo_thambi_regular"
+                        android:padding="10dp"
+                        android:text="@string/el_thobhy"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:padding="10dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/link_" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/github"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="10dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/github" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo_thambi_regular"
+                        android:padding="10dp"
+                        android:text="@string/auriwan"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="112dp"
+                        android:padding="10dp"
+                        android:src="@drawable/link_" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/facebook"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="10dp"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/fb_logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo_thambi_regular"
+                        android:padding="10dp"
+                        android:text="@string/facebook"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="82dp"
+                        android:padding="10dp"
+                        android:src="@drawable/link_" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linkedin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_margin="10dp"
+                        android:padding="0dp"
+                        android:scaleType="fitStart"
+                        android:src="@drawable/linkedin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/baloo_thambi_regular"
+                        android:padding="10dp"
+                        android:text="@string/facebook"
+                        android:textColor="@color/black" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="82dp"
+                        android:padding="10dp"
+                        android:src="@drawable/link_" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/auriwan" />
+    </RelativeLayout>
+
+
+</FrameLayout>

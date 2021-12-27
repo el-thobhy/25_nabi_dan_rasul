@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.DetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="vertical"
+                android:background="#18305E"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/custom_bg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <ImageView
+                        android:id="@+id/image_detail"
+                        android:layout_width="340dp"
+                        android:layout_height="200dp"
+                        android:layout_margin="10dp"
+                        android:layout_weight="60"
+                        android:background="@drawable/custom_bg2"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/adam_as" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_weight="50"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avant_garde_gothic_lt_bold"
+                            android:text="Nama Nabi"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/nama_nabi"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloo_thambi_regular"
+                            android:text="Adam AS"
+                            android:textColor="#494646" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/avant_garde_gothic_lt_bold"
+                            android:text="Umat"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/umat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloo_thambi_regular"
+                            android:text="Bani Adam"
+                            android:textColor="#494646" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/avant_garde_gothic_lt_bold"
+                            android:text="Umur"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/umur"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/baloo_thambi_regular"
+                            android:text="1000 tahun"
+                            android:textColor="#494646" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/avant_garde_gothic_lt_bold"
+                        android:text="Kisah" />
+
+                    <TextView
+                        android:id="@+id/ceritanya"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:fontFamily="@font/baloo_thambi_regular"
+                        android:text="Nabi Adam AS adalah manusia dan khalifah pertama yang diciptakan oleh Allah SWT."
+                        android:textColor="#494646" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

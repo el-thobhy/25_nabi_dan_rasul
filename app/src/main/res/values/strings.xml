@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">25 Nabi dan Rasul</string>
+    <string name="detail">tes</string>
+    <string name="nama_nabi">nabi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="el_thobhy">\@el_thobhy</string>
+    <string name="auriwan">\@auriwan</string>
+    <string name="facebook">Auriwan Yasper</string>
+
+</resources>
